@@ -1,0 +1,6 @@
+/* Heroku remote server */
+$i++;
+$cfg["Servers"][$i]["host"] = "ec2-44-206-137-96.compute-1.amazonaws.com:5432"; //provide hostname
+$cfg["Servers"][$i]["user"] = "gwyojfrlwtmywh"; //user name for your remote server
+$cfg["Servers"][$i]["password"] = "32ccb4edf0ce1568ebf71da3ed8a18531d636b4caefb2a5e791e23566c127dcd"; //password
+$cfg["Servers"][$i]["auth_type"] = "config"; // keep it as config
